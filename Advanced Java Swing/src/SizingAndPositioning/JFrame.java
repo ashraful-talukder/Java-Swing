@@ -1,5 +1,0 @@
-package SizingAndPositioning;
-
-class JFrame {
-    
-}
