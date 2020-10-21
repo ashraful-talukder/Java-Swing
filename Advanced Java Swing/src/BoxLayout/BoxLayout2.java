@@ -27,6 +27,6 @@ public class BoxLayout2 extends JFrame {
     }
     
     public static void main(String[] args) {
-        new BoxLayout2();
+        new BoxLayout2().setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 }
