@@ -19,6 +19,13 @@ public class JLabelFontForeground {
         label.setFont(new Font("Courier New", Font.ITALIC + 1, 14));
         label.setForeground(Color.BLUE);
         
+        /* since the default of the opaque is false for JLabel
+         * If true the component paints every pixel within its bound.
+         * Otherwise, the component may not paint some or all of its pixels,
+         * allowing the underlying pixels to show through
+         * We nee to make this opaque true for only JLabel
+         * Others components get opaque true by default
+         */
         label.setOpaque(true);
         label.setBackground(Color.RED);
         
